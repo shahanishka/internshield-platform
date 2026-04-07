@@ -137,3 +137,15 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# InternShield specific
+uploads/
+.env.local
+.env.production
+
+# MongoDB
+*.mongodb
+
+# OS files
+.DS_Store
+Thumbs.db
