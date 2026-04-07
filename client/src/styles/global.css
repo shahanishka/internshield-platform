@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #3b2f8f;
+  --primary-light: #5a45c8;
+  --accent: #7c5cbf;
+  --white: #ffffff;
+  --bg: #f5f4ff;
+  --text: #1a1a2e;
+  --muted: #666680;
+  --green: #22c55e;
+  --yellow: #f59e0b;
+  --red: #ef4444;
+  --card-shadow: 0 4px 20px rgba(59, 47, 143, 0.12);
+  --radius: 12px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}

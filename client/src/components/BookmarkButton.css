@@ -1,0 +1,43 @@
+.bookmark-btn {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+.bookmark-btn:hover {
+  border-color: #f43f5e;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(244, 63, 94, 0.2);
+}
+
+.bookmark-btn.bookmarked {
+  border-color: #f43f5e;
+  background: #fff1f2;
+}
+
+.bookmark-btn.animating {
+  animation: heartPop 0.4s ease;
+}
+
+.bookmark-btn.size-large {
+  width: 44px;
+  height: 44px;
+  font-size: 1.3rem;
+}
+
+@keyframes heartPop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.4); }
+  70%  { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
